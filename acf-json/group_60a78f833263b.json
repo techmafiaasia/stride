@@ -1,0 +1,39 @@
+{
+    "key": "group_60a78f833263b",
+    "title": "Banner Settings",
+    "fields": [
+        {
+            "key": "field_60a78f9671727",
+            "label": "Button link that appears on the banner",
+            "name": "_banner_button_link",
+            "type": "link",
+            "instructions": "Leave black if the banner has no button.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1621601636
+}

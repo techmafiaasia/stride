@@ -1,0 +1,69 @@
+.inner-banner {
+  height: 465px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 125px;
+  h1 {
+    color: #ffffff;
+    text-transform: capitalize;
+    letter-spacing: normal;
+  }
+}
+.our-mission {
+  padding-top: 113px;
+  padding-bottom: 55px;
+  .mission-content {
+    h3 {
+      color: $color__light-blue;
+      letter-spacing: 0;
+    }
+    h6 {
+      font-weight: 500;
+      color: $color__text;
+      letter-spacing: normal;
+    }
+  }
+  .featured-logo {
+    margin-top: 107px;
+    h4 {
+      color: $color__base;
+      text-transform: uppercase;
+      font-size: 40px;
+      line-height: 1.4;
+      margin: 0;
+      letter-spacing: 0;
+    }
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .logos {
+      }
+    }
+  }
+}
+.renowned-doctor {
+  padding: 149px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  .content-wrap {
+    width: 705px;
+    max-width: 100%;
+    h3 {
+      color: $color__base;
+      letter-spacing: 0;
+      margin: 0 0 45px;
+    }
+    p {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.66;
+      letter-spacing: 0;
+      margin: 0;
+      color: $color__base;
+    }
+  }
+}

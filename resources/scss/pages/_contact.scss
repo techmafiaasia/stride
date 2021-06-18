@@ -1,0 +1,46 @@
+.contact-section {
+  padding-bottom: 125px;
+  .contact-left {
+    padding-left: 2px;
+    p,
+    ul li {
+      font-size: 24px;
+      line-height: 1.66;
+      color: $color__base;
+      letter-spacing: 0;
+    }
+    p {
+      margin: 0 0 40px;
+      font-weight: 500;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style: none;
+        display: block;
+        font-weight: 800;
+        margin: 0 0 18px;
+        a {
+          font-weight: 500;
+          color: $color__base;
+          @include transition(0.4s);
+          &:hover {
+            color: $color__secondary;
+          }
+        }
+      }
+    }
+  }
+  .form-right {
+    .row {
+      margin-left: -12px;
+      margin-right: -12px;
+      .col-md-6,
+      .col-12 {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.inner-banner {
+	height: 465px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 138px;
+    h1 {
+    	color: #ffffff;
+    	text-transform: capitalize;
+    }
+}
+.our-mission {
+	padding-top: 113px;
+	.mission-content {
+		h3 {
+			color: $color__light-blue;
+			letter-spacing: 0;
+		}
+		h6 {
+			font-weight: 500;
+		}
+	}	
+}

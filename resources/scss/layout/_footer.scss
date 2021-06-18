@@ -1,0 +1,116 @@
+#colophon {
+  background: $color__base;
+  padding: 49px 0 30px;
+  * {
+    color: #fff;
+  }
+  svg {
+    * {
+      fill: #fff;
+    }
+  }
+  .custom-logo-link {
+    img {
+      filter: brightness(0) invert(1);
+      width: 100%;
+    }
+  }
+  ul {
+    &:not(.social-icons) {
+      margin: -14px 0 0;
+    }
+    list-style: none;
+    padding: 0;
+    list-style: none;
+    li {
+      padding: 12px 0;
+      a,
+      a:focus,
+      a:visited {
+        display: inline-block;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 1;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        &:hover {
+          color: $color__secondary;
+        }
+      }
+    }
+  }
+  p.copyright {
+    font-size: 12px;
+    line-height: 32px;
+    color: #cacaca;
+    letter-spacing: normal;
+  }
+  > .site-info {
+    > .container {
+      @media (min-width: 1304px) {
+        max-width: 1284px;
+      }
+      > .row {
+        > .col-lg-3 {
+          @media (min-width: 1200px) {
+            &:first-child {
+              flex: 0 0 256px;
+              max-width: 256px;
+              margin-right: 55px;
+            }
+            &:nth-child(2) {
+              flex: 0 0 191px;
+              max-width: 191px;
+              margin-right: 55px;
+            }
+            &:nth-child(3) {
+              flex: 0 0 258px;
+              max-width: 258px;
+              margin-right: 89px;
+            }
+            &:nth-child(4) {
+              flex: 0 0 365px;
+              max-width: 365px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .social-icons {
+    li {
+      display: inline-block;
+      margin: 29px 24px 0 0;
+      a {
+        &:hover {
+          img {
+            filter: brightness(0) invert(1);
+          }
+        }
+        img {
+          transition: 0.2s ease-in-out;
+          width: 25px;
+          height: auto;
+        }
+      }
+    }
+  }
+  .fortress-wrap {
+    margin-bottom: 29px;
+    p {
+      font-size: 18px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #ffffff;
+      a {
+        font-weight: 900;
+        &:hover {
+          color: $color__secondary;
+        }
+      }
+    }
+  }
+  [class^="col-"] {
+    margin: 10px 0;
+  }
+}
